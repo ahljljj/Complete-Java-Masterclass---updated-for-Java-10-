@@ -4,6 +4,11 @@ public class NumberPalindrome {
 
         System.out.println(isPalindrome(121));
 
+        String numberString = "2018";
+        System.out.println("numberString: " + numberString);
+        int number = Integer.parseInt(numberString);
+        System.out.println("Integer number = " + number * 10);
+
     }
 
     public static boolean isPalindrome(int number){
