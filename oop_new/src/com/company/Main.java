@@ -8,5 +8,8 @@ public class Main {
         porsche.setModel("Carrera");
         System.out.println("model is " + porsche.getModel());
 
+        VipCustomer tom = new VipCustomer();
+        System.out.println("tom's name = " + tom.getName());
+
     }
 }
