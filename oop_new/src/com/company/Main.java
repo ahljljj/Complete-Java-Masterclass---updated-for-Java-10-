@@ -14,6 +14,8 @@ public class Main {
         Animal animal = new Animal("Animal", 1, 1, 5, 5);
         dog d = new dog("yorkie", 8, 20, 2, 4, 1, 20, "long silky");
         d.eat();
+        d.walk();
+        d.run();
 
 
 
